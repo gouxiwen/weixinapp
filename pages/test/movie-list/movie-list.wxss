@@ -1,0 +1,28 @@
+@import "../movie-item/movie-item.wxss";
+text{
+ color: grey;
+}
+.groupTitle{
+  color: grey;
+ font-size: 14px
+}
+.more{
+ float: right;
+ margin-right: 10px;
+}
+.more text{
+ color: blue;
+ font-size: 14px;
+}
+.more image{
+  width: 10px;
+  height: 10px;
+}
+.movie-list{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.movie-list-item{
+  width: 33%;
+}

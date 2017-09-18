@@ -1,0 +1,22 @@
+<template name="postItem">
+    <view class="item">
+      <!-- 头部 -->
+      <view class="header">
+        <image src="{{header_image}}"></image><text>{{header_text}}</text>
+      </view>
+      <!-- <navigator url="{{url}}"> -->
+      <!-- 标题 -->
+      <view class="title">{{title}}</view>
+      <!-- 主体 -->
+      <view class="content">
+      <image src="{{first_image}}"></image>
+      </view>
+      <!-- 文字简介 -->
+      <view class="description">{{description}}</view>
+      <!-- </navigator> -->
+      <view class="foot">
+        <image src="/images/chat1.png"></image><text>{{foot_text1}}</text>
+        <image src="/images/view.png"></image><text>{{foot_text2}}</text>
+      </view>
+    </view>
+</template>

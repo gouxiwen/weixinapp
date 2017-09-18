@@ -1,0 +1,8 @@
+@import "../movie-item/movie-item.wxss";
+.moreList{
+    width: 33%;  
+  float: left;
+}
+.scroll{
+  height: 1600rpx;
+}

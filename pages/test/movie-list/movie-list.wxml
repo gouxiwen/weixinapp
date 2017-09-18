@@ -1,0 +1,17 @@
+<import src = "../movie-item/movie-item"/>
+<template name="movie-list">
+<view class="groupTitle">
+  <text class="">{{tit}}</text>
+  <view class="more" catchtap="toMore" data-tit="{{tit}}">
+     <text>更多</text><image src="/images/arrow-right.png"></image> 
+  </view>
+</view>
+  <!-- <image catchtap="toDetail" src="/images/vr.png"></image>  -->
+<view class="movie-list">
+<block wx:for="{{movies}}">
+<view class="movie-list-item">
+ <template is="movie-item" data="{{...item}}"></template>
+</view>
+</block>
+</view>
+</template>

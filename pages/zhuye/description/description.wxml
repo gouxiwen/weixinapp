@@ -1,0 +1,20 @@
+<!--description.wxml-->
+<view class="content">
+<image src="{{desIn.src}}"></image>
+</view>
+ <view class="header">
+<image src="{{desIn.header_image}}"></image>
+<text>{{desIn.header_nickname}}</text>
+<text class="send">发表于</text>
+<text class="date">{{desIn.header_date}}</text>
+</view>
+<view class="desTitle">{{desIn.description}}</view>
+<view class="share_img">
+    <image  src="/images/share.png" catchtap="onshareTap"></image>
+    <image wx:if="{{cache}}" src="/images/collection.png" catchtap="collection"></image>
+     <image wx:else src="/images/collection-anti.png" catchtap="collection"></image>
+  </view>
+<view class="desBody">
+  <view class="text">{{desIn.desBody_text}}</view>
+  <view class="text">{{desIn.desBody_text1}}</view>
+</view>

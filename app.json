@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/zhuye/zhuye",
+    "pages/play/paly",
+    "pages/test/detail/detail",
+    
+    "pages/test/test",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/zhuye/description/description",
+    "pages/test/movie-more/movie-more"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/zhuye/zhuye",
+        "text": "阅读",
+        "iconPath": "images/yuedu.png",
+        "selectedIconPath": "images/yuedu_hl.png"
+      },
+      {
+        "pagePath": "pages/test/test",
+        "text": "电影",
+        "iconPath": "images/dianying.png",
+        "selectedIconPath": "images/dianying_hl.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+<!--detail.wxml-->
+<import src = "../movie-star/movie-star"/>
+
+<!-- ------- -->
+<view class="bg">
+  <!-- <image src="/images/vr.png"></image>   -->
+  <image src="{{image}}"/>  
+</view>
+<view class="bgfont">
+<view class="bgname">{{original_title}}</view>
+<view class="bgareyears">{{countries}}·{{year}}</view>
+<view class="al">
+<text class="amount">{{collect_count}}</text><text class="like">人喜欢</text>
+<text class="amount">{{comments_count}}</text><text class="like">条评论</text>
+</view>
+</view>
+ <!-- <image class="cover" src="/images/vr.png"></image>  -->
+ <image class="cover" src="{{image}}"></image> 
+<!-- -------- -->
+<view class="mid">
+<view class="midtitle">{{original_title}}</view>
+<view class="listleft">评分</view>
+<view class="comment"> 
+<template is="movie-star" data="{{average:average,stars:stars}}"></template>
+<!-- <image src="/images/star.png"></image> -->
+<!-- <text >{{average}}</text> -->
+ </view> 
+<view  class="block">
+<view class="listleft">导演</view><view class="listright">{{director}}</view>
+</view>
+<view class="block">
+  <view class="listleft">影人</view>
+  <view class="listright">
+    <text>{{castsName}}</text>
+ </view>  
+</view>
+<view  class="block">
+<view class="listleft">类型</view>
+<view class="listright">
+  <text>{{genres}}</text>
+ </view>
+</view>
+</view>
+<!-- 分割线 -->
+<view class="line"></view>
+<view class="listleft">剧情简介</view>
+<view class="listright">{{summary}}</view>
+<!-- 分割线 -->
+<view class="line"></view>
+<view class="listleft">影人</view>
+
+<scroll-view class="casts" scroll-x="true">
+ <view class="scroll-area">
+ <block  wx:for="{{casts}}">
+<image class="movieman" src="{{item.avatars.large}}"></image>
+</block>
+</view> 
+</scroll-view>
+<!-- ------------ -->

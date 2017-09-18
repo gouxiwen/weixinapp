@@ -1,0 +1,16 @@
+<import src = "movie-list/movie-list"/>
+<import src = "more-tem/more-tem"/>
+<view class="searchGroup">
+  <icon type="search" color="#405F80" size="18" class="icon" />
+  <input type=text" class="searchText" placeholder="请输入内容" bindfocus="onfocus" bindblur="onblur"/>
+  <icon wx:if="{{focus}}" type="cancel" color="grey" size="20" class="icon" catchtap="closesearch"/>
+</view>
+<view wx:if="{{blur}}">
+<template is="movie-list" data="{{...intheaters}}"></template>
+<template is="movie-list" data="{{...comingsoon}}"></template>
+<template is="movie-list" data="{{...top250}}"></template>
+</view>
+<view wx:if="{{focus}}">
+<!-- <text>测试</text> -->
+<template is="more" data="{{...searchUrl}}"></template>
+</view>

@@ -1,0 +1,51 @@
+@import "../movie-star/movie-star.wxss";
+.searchGroup{
+  padding: 10px;
+}
+.searchGroup .search{
+  width: 90%;
+  display: inline-block ;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+.searchGroup .icon{
+   vertical-align: middle 
+}
+text{
+ color: grey;
+}
+.groupTitle{
+  color: grey;
+ font-size: 14px
+}
+.more{
+ float: right;
+ margin-right: 10px;
+}
+.more text{
+ color: blue;
+ font-size: 14px;
+}
+.more image{
+  width: 10px;
+  height: 10px;
+}
+.movie-item{
+     /* width: 30%;   */
+    margin: 10px 7px;
+}
+.movie-item .item{
+ /* width: 100%; */
+ text-overflow: ellipsis;
+ overflow: hidden;
+}
+.item image{
+width: 100%;
+height: 180px;
+}
+.item text{
+font-size: 16px; 
+text-overflow:ellipsis;
+width: 2px;
+white-space: nowrap;
+}

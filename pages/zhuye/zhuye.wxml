@@ -1,0 +1,22 @@
+<!--pages/zhuye/zhuye.wxml-->
+<!-- 引入模板 -->
+<import src="zhuye-item/zhuye-item.wxml"/>
+<!-- 图片轮播 -->
+<swiper class="swiper" indicator-dots interval="1500" autoplay circular duration="1000">
+<!-- 列表渲染 -->
+<block wx:for="{{ carouselIn}}">
+  <swiper-item>
+      <image src="{{item.src}}"></image>
+  </swiper-item>
+</block>
+</swiper>
+<view class="main">
+  <!-- 列表渲染 -->
+  <block wx:for="{{postlistIn}}">
+  <!-- 使用模板 -->
+  <!-- 自定义属性，传递id -->
+  <view catchtap="toDescription" data-postid="{{index}}">
+  <template is="postItem" data="{{...item}}"></template>
+  </view>
+  </block>
+</view>

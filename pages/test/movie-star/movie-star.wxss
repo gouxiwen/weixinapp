@@ -1,0 +1,20 @@
+.item_foot{
+   /* width: 100%; */
+   vertical-align: middle;
+   height: 24px; 
+   line-height: 24px;
+}
+.nostar{
+  /* width: 100%; */
+   font-size: 12px;
+  font-weight: bolder;
+}
+.star image{
+   width: 25rpx; 
+   height: 25rpx;
+}
+.star text{
+   font-size: 16px; 
+  margin-left: 20px;
+  font-weight: bolder;
+}

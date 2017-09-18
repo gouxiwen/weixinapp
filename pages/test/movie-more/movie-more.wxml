@@ -1,0 +1,3 @@
+<!--movie-more.wxml-->
+<import src = "../more-tem/more-tem"/>
+<template is="more" data="{{movies}}"></template>

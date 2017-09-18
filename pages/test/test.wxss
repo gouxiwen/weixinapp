@@ -1,0 +1,14 @@
+@import "movie-list/movie-list.wxss";
+@import "more-tem/more-tem.wxss";
+.searchGroup{
+  padding: 10px 5px;
+}
+.searchGroup .searchText{
+  width: 87%;
+  display: inline-block ;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+.searchGroup .icon{
+   vertical-align: middle 
+}

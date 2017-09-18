@@ -1,0 +1,56 @@
+/* pages/zhuye/zhuye.wxss */
+page{
+
+}
+.swiper {
+  height: 500rpx; 
+ width: 100%;
+}
+.swiper image {
+ height: 100%;
+ width: 100%;
+}
+.main{
+ /* display: flex;
+flex-direction: column; */
+}
+.item{
+  /* width: 100%; */
+  border-top: 1px solid #EDEDED;
+  border-bottom: 1px solid #EDEDED;
+  margin-bottom: 30px;
+}
+.header{
+   margin: 10px;
+}
+.header text{
+  margin: 0px 10px; 
+  color: grey;
+}
+.header image{
+ width: 40px; 
+ height: 40px;
+ vertical-align: middle;
+}
+.title{
+  font-weight: 900;
+  margin:10px 20px;
+}
+.content image{
+    width: 100%; 
+}
+.description{
+ margin: 10px 0px; 
+ color: grey;
+ line-height: 30px;
+}
+.foot image{
+ width: 20px; 
+ height: 20px;
+ vertical-align: middle;
+}
+.foot text{
+ color: grey;
+ margin: 0 10px;
+ font-size: 18px; 
+}

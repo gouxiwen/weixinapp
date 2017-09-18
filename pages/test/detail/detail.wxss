@@ -1,0 +1,99 @@
+ @import "../movie-star/movie-star.wxss"; 
+.bg image{
+   height: 400rpx; 
+  width: 100%;
+  filter: blur(3px);
+}
+.bgfont{
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+.bgfont .bgname{
+  color: white;
+  font-size: 25px;
+  font-weight: bolder;
+  margin-top: 15px;
+}
+.bgfont .bgareyears{
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-top: 25px;
+}
+.bgfont .al{
+ margin-top: 45px;
+}
+.bgfont .amount{
+  color: red;
+  font-size: 14px;
+  font-weight: bolder;
+  margin: 10px;
+}
+
+.bgfont .like{
+  color: gray;
+  font-size: 14px;
+  font-weight: bolder;
+  margin: 10px;
+}
+.cover{
+  width: 200rpx;
+  height: 300rpx;
+  position: absolute;
+  top: 200rpx;
+  left: 500rpx;
+}
+.comment{
+  display: inline-block;
+  height: 24px;
+  width: 60%;
+  margin-left: 20px;
+}
+/* .comment image{
+   width: 25rpx; 
+   height: 25rpx;
+}
+.comment text{
+   font-size: 16px;
+  margin-left: 15px;
+} */
+.mid .midtitle{
+  font-size: 16px;
+  font-weight: bolder;
+  margin: 20px;
+}
+.block{
+  vertical-align: top;
+  margin-top:5px;
+}
+.listleft{
+ display: inline-block;
+ font-size: 14px;
+ margin-left: 20px;
+ color: gray;
+}
+.listright{
+  display: inline-block;
+  font-size: 14px;
+  margin-left:  20px;
+  font-weight: bolder;
+ color: gray;
+   width: 80%; 
+}
+.line{
+  border-top: 1px solid gainsboro;
+  margin: 40px 0;
+}
+.casts{
+  margin-top: 20px;
+  width: 100%; 
+}
+.scroll-area{
+   width: 1000rpx;  
+}
+.movieman{
+   width: 200rpx;
+  height: 300rpx;
+  margin: 0 5px;
+}
